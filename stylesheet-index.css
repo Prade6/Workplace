@@ -1,15 +1,15 @@
 body{
-    padding: 0;
-    margin: 0;
-    background-color: #e9eef6;
+    padding: 0 !important;;
+    margin: 0 !important;; 
+    background-color: #e9eef6 !important;
 }
 header{
-    background-color: #1a5bff;;
-    margin: 10px 10px 10px 10px;
-    border-radius: 10px;
-    padding: 10px 10px 10px 10px;
-    display: flex;
-    box-shadow: 0 4px 10px 2px rgba(70, 129, 227, 0.21);
+    background-color: #1a5bff !important;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px !important;
+    padding: 10px 10px 10px 10px !important;
+    display: flex !important;
+    box-shadow: 0 4px 10px 2px rgba(70, 129, 227, 0.21) !important;
 }
 .heading{
     color: #fff;
@@ -32,6 +32,7 @@ header{
     grid-area: a;
     width: 75vw;
     overflow: hidden;
+    text-align: center;
 }
 .my-works-list{
     background-color: transparent;
@@ -48,25 +49,47 @@ header{
     border-bottom-right-radius: 10px;
     text-align: center;
     height: 200px;
-    cursor: pointer;
-    margin: 1px;
+    margin: 2px;
     position: relative;
 }
+.my-works-list-div:hover{
+    box-shadow: 0 4px 10px 2px rgba(70, 129, 227, 0.21);
+    transition: 0.3s
+}
+.my-works-list-div .content-display{
+    
+}
+.my-works-list-div .content-display:hover{
+    
+}
+.content-display img{
+    width: 80%;
+    height: 160px;
+}
 .my-works-list-div .view-content{
-    background-color: #1a5bff;
+    background-color: #fff;
     bottom: 0;
     position: absolute;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: auto;
+    width: 100%;
+    height: 15%;
+    padding-top:5px;
+    color: grey;
 }
-.my-works-list div:hover{
-    box-shadow: 0 4px 10px 2px rgba(70, 129, 227, 0.21);
-    transition: 0.3s
+.my-works-list-div .view-content:hover {
+    height: 16%;
+    transition: 0.5s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    background-color: #1a5bff;
+    color: white;
 }
 .my-skills{
     background-color: #fff;
     grid-area: b;
     border-radius: 10px;
     width: 22.5vw;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
 }
