@@ -1,3 +1,4 @@
+/*common*/
 body{
     background-color: #e9eef6;
     text-align: center;
@@ -9,12 +10,16 @@ body{
     letter-spacing: normal;
     text-align: center;
 }
-.logo{
-    margin-top: 5vh;
+.caption-in-grey{
+    color: #79859c;
 }
-.Login-container{
-    width: 50vh;
-    height: 370px;
+
+.logo{
+    margin-top: 2vh;
+}
+.login-container{
+    width: 20vw;
+    height: 50vh;
     border-radius: 10px;
     background-color: #ffffff;
     box-shadow: 0 12px 11px 2px rgba(28, 44, 74, 0.05);
@@ -22,14 +27,12 @@ body{
     flex-direction: column;
     padding: 28px 23px 22px 23px;
     justify-content: space-between;
-    position: absolute;
-    top: 20%;
-    left: 34%;
-    
+	margin:0 auto;
+	margin-top:5vh;
 }
 .text-box{
-    width: 20vw;
-    height: 2vh;
+    width: 15vw;
+    height: 1vh;
     border-radius: 7px;
     background-color: #f3f3f3;
     border: solid 1px #c9d0db;
@@ -37,23 +40,21 @@ body{
     font-size: 15px;
     line-height:0;
 }
-.btn{
-    width: 341px;
-    height: 40px;
+.primary-button{
+    width: 17.5vw;
+    height: 5vh;
     border-radius: 7px;
     background-color: #1a5bff;
     box-shadow: 0 4px 10px 2px rgba(70, 129, 227, 0.21);
     border: none;
     color: white;
+	font-size: 15px;
 }
 a{
     text-decoration: none;
 
 }
-.gryLbl{
-    color: #79859c;
-    margin-bottom: 70px;
-}
+
 
 .head{
     font-size: 37px;
@@ -63,13 +64,4 @@ a{
 .belhead{
     font-size: 15px;
 
-}
-.signhead{
-
-}
-.plshold{
-
-}
-.BlwSignBtn{
-    font-size: 14px;
 }
