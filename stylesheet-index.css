@@ -20,25 +20,44 @@ header{
 .main-container{
     background-color: transparent;
     margin: 10px 10px 10px 10px;
+    padding: 10px;
     display: grid;
-    grid-gap: 10px; 
-    grid-template-areas: "a  b";
-    height: auto;
+    grid-gap: 0px; 
+    grid-template-areas: "a b";
+    height: 75vh;
+
+ 
 }
 .my-works{
-    background-color: transparent;
-    text-align: center;
-    grid-template-areas: "a a";
+    background-color: #e9eef6;;
     grid-area: a;
-    grid-auto-columns: 200px;
+    width: 75vw;
+    overflow: hidden;
 }
-.my-works div{
+.my-works-list{
+    background-color: transparent;
+    width: 76vw;
+    display: grid;
+    grid-template-areas: "a a";
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: auto;    
+    height: 100%;
+}
+.my-works-list div{
     background-color:  #fff;
     border-radius: 10px;
+    text-align: center;
+    height: 200px;
+    cursor: pointer;
+    overflow: auto;
+    margin: 5px;
+}
+.my-works-list div:hover{
+    box-shadow: 0 4px 10px 2px rgba(70, 129, 227, 0.21);
 }
 .my-skills{
     background-color: #fff;
     grid-area: b;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
