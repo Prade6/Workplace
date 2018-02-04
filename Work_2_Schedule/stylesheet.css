@@ -5,14 +5,56 @@ body{
     display: flex !important;
     font-family: 'Nunito', sans-serif !important;
 }
+.user-img{
+    width: 42px;
+    height: 42px;
+}
 /*Navigation Bar*/
 .nav{
     border-right: 1px solid grey;
     height: 100vh ;
     width: 6rem;
+    text-align: center;
+    padding-top: 10px;
+}
+.nav .menu-icons{
+    margin-top: 100px;
+    margin-left: 11px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 .nav .button-grid {
-    background: url('./icons_SVG/grid.svg');
+    background: url('./icons_SVG/grid.svg') no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    flex-grow: 2;
+}
+.nav .button-mail {
+    background: url('./icons_SVG/contact.svg') no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    border: none;
+}
+.nav .button-bookmark{
+    background: url('./icons_SVG/bookmark.svg') no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    border: none;
+}
+.nav .button-calender{
+    justify-content: flex-end;
+    background: url('./icons_SVG/calendar.svg') no-repeat;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    border: none;
 }
 .main-container{
     width: 100%;
